@@ -1,5 +1,6 @@
 from django.urls import path
 
+# указываем контроллеры home и contacts
 urlspatterns = [
-    path('',home, name='catalog')
+    path('',home, contacts, name='catalog')
 ]
